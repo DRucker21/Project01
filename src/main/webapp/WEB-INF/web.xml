@@ -1,0 +1,65 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SignInController</servlet-name>
+  	<display-name>SignInController</display-name>
+  	<description></description>
+  	<servlet-class>com.Aviator.ERS.SignInController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogInController</servlet-name>
+  	<display-name>LogInController</display-name>
+  	<description></description>
+  	<servlet-class>com.Aviator.ERS.LogInController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CheckAccount</servlet-name>
+  	<display-name>CheckAccount</display-name>
+  	<description></description>
+  	<servlet-class>com.Aviator.ERS.CheckAccount</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Reimbursement</servlet-name>
+  	<display-name>Reimbursement</display-name>
+  	<description></description>
+  	<servlet-class>com.Aviator.ERS.Reimbursment</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ELoginController</servlet-name>
+  	<display-name>ELoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.Aviator.ERS.ELoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SignInController</servlet-name>
+  	<url-pattern>/SignInController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignInController</servlet-name>
+  	<url-pattern>/SignIn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogInController</servlet-name>
+  	<url-pattern>/LogInController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogInController</servlet-name>
+  	<url-pattern>/LogIn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CheckAccount</servlet-name>
+  	<url-pattern>/CheckAccount</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+   <servlet-name>Reimbursement</servlet-name>
+  	<url-pattern>/Reimbursement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ELoginController</servlet-name>
+  	<url-pattern>/ELoginController</url-pattern>
+  </servlet-mapping>
+</web-app>

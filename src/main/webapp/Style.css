@@ -1,0 +1,36 @@
+h1 {
+	text-align: center;
+	color: Black;
+	font-style: italic;
+	font-family: bold;
+}
+
+body { 
+	font: times new roman;
+}
+
+p {
+	color: fuchsia;
+}
+
+hr {
+	color: orange;
+}
+.mycolor{
+	color:#ff9900;
+	font-size :xx-large;
+}
+.important{
+	background-color:blue;
+	font-style: bold;
+}
+
+A:link{
+	color:Blue;
+}
+A:Hover{
+	color:white;
+}
+A:visited{
+	color:purple;
+}
